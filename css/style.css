@@ -1,0 +1,251 @@
+body {
+	margin: 0;
+	font-family: "Poppins", sans-serif;
+}
+
+h1,
+h3,
+h3 {
+	margin: 0px;
+}
+
+section {
+	padding: 40px 0px;
+}
+
+.column_heading h2 {
+	font-style: normal;
+	font-weight: bold;
+	font-size: 36px;
+	line-height: 54px;
+	color: #333333;
+}
+
+.section_heading h2 {
+	font-size: 48px;
+	line-height: 70px;
+	font-weight: 900;
+	color: #13103a;
+	text-align: center;
+}
+
+h3 {
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 36px;
+	/* identical to box height */
+	color: #000000;
+}
+
+p {
+	font-size: 18px;
+}
+
+.btn-primary {
+	padding: 12px 35px;
+	background: #ff5959;
+	font-weight: 500;
+	font-size: 16px;
+	text-decoration: none;
+	line-height: 24px;
+	color: #ffffff;
+	border-radius: 5px;
+}
+
+.container {
+	max-width: 1128px; /*according to figma*/
+	margin: 0px auto;
+}
+
+.text-right {
+	text-align: right;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.text-left {
+	text-align: left;
+}
+
+.flex {
+	display: flex;
+}
+
+.v-center {
+	align-items: center;
+}
+
+.space-between {
+	justify-content: space-between;
+}
+
+.flex50 {
+	width: 50%;
+}
+
+.relative {
+	position: relative;
+}
+
+.sp15 {
+	padding-bottom: 15px;
+}
+
+.sp30 {
+	padding-bottom: 30px;
+}
+
+.heading_area {
+	padding-top: 140px;
+}
+
+.heading_area .side_border {
+	width: 4px;
+	height: 124px;
+	background-color: #ff5959;
+	border-radius: 5px;
+	margin-right: 13px;
+}
+
+.dual_heading h2 {
+	padding: 0;
+	margin: 0;
+	font-size: 60px;
+	line-height: 80px;
+	font-family: "Yeseva One", cursive;
+	font-weight: normal;
+	color: #333333;
+}
+
+.dual_heading span {
+	color: #ffad5a;
+}
+
+#myMission .card p {
+	font-size: 16px;
+	line-height: 24px;
+}
+
+.card {
+	width: 320px;
+	padding: 20px;
+	border-radius: 26px;
+}
+
+.card img {
+	width: 140px;
+	height: 140px;
+}
+
+#mission {
+	background: rgba(79, 157, 166, 0.1);
+}
+
+#vission {
+	background: rgba(255, 89, 89, 0.1);
+}
+
+#goal {
+	background: #fff4d6;
+}
+
+#dev_nolimits .inner-content {
+	padding-left: 72px;
+}
+
+.dot1 {
+	position: relative;
+}
+
+#dev_nolimits .circle {
+	position: absolute;
+	left: -100px;
+	top: 100px;
+	z-index: -1;
+}
+
+.dot1 img {
+	/* text-align: right; */
+	position: absolute;
+	right: 0;
+	top: -105px;
+}
+
+#know_community .inner-content {
+	padding-right: 106px;
+}
+
+#know_community .circle {
+	position: absolute;
+	bottom: -80px;
+	right: -100px;
+	z-index: -1;
+}
+
+.dot2 {
+	position: relative;
+}
+
+.dot2 img {
+	position: absolute;
+	top: -100px;
+}
+
+.form-container {
+	min-width: 400px;
+	background: #edf5f6;
+	border-radius: 16px;
+	padding: 40px;
+	box-shadow: 10px 20px 30px rgba(255, 145, 0, 0.164);
+}
+
+.form-container .form_c1 {
+	position: absolute;
+	z-index: -1;
+	top: -100px;
+	left: -100px;
+}
+
+#askQuestion .inner-content {
+	padding-left: 72px;
+}
+
+form .form-control {
+	width: 90%;
+	background: transparent;
+	border: none;
+	border-bottom: 1px solid #000000;
+	padding: 16px;
+}
+
+form .form-control:active {
+	border: none;
+}
+
+form .btn-primary {
+	margin-top: 30px;
+	border: none;
+}
+
+#footer {
+	background-color: #0b0d17;
+	margin-top: 50px;
+}
+
+#footer h2 {
+	font-family: "Lobster", cursive;
+	font-size: 36px;
+	line-height: 44px;
+	letter-spacing: 0.5px;
+	color: white;
+}
+
+#footer p {
+	color: white;
+}
+
+#footer .content-area {
+	padding: 46px 0px;
+}
